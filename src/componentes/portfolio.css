@@ -1,8 +1,9 @@
+
 .leoImg{
     height: 150px;
     width: 150px;
     border-radius: 100px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .nihongoPortfolio{
     flex-direction: row;
@@ -10,4 +11,66 @@
 #nihonLeo{
     height: 200px;
     width: 100px;
+}
+#icones{
+    padding-left: 5px;
+    color: white;
+}
+#projetosText{
+    padding-top: 120px;
+    color: #18bc9c;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    text-underline-position: below;
+}
+#leoDescricao{
+    background-color: #18bc9c;
+    
+}
+#sobremimText{
+    background-color: #18bc9c;
+}
+#disponivelText{
+    background-color:#18bc9c;
+    padding-top: 60px;
+    
+}
+#gmailText{
+    padding-bottom: 60px;
+}
+#navbarLeo{
+    background-color: #2c3e50;
+    
+}
+#footerleo{
+    background-color: #2c3e50;
+    color: white;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#leoTextdescricao{
+    color: white;
+    
+}
+#sobreLeoText{
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    text-underline-position: below;
+    color: white;
+}
+#disponivelLeoText{
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    text-underline-position: below;
+    color: white;
+}
+#navText{
+    color: white;
 }

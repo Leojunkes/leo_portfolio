@@ -6,7 +6,7 @@ import leoNihongo from '../imagens/tela_nihongo.png';
 import leoNiho1 from '../imagens/tela_nihongo3.png';
 import leoniho2 from '../imagens/tela_nihongo4.png';
 import conversorLeo from '../imagens/conversorLeo.png';
-import reportWebVitals from '../reportWebVitals';
+
 
 export default function Portfolio(){
     return(
@@ -53,14 +53,14 @@ export default function Portfolio(){
       <h2 id="projetosText" className="jumbotron-heading text-center">Projetos</h2>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         
-        <div class="col-md-4">
-          <div class="card shadow-sm">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src={LeoMePortfolio}  preserveAspectRatio="xMidYMid slice"/>
+        <div className="col-md-4">
+          <div className="card shadow-sm">
+            <img className="bd-placeholder-img card-img-top" width="100%" height="225" src={LeoMePortfolio}  preserveAspectRatio="xMidYMid slice"/>
 
-            <div class="card-body">
-              <p class="card-text">Site criado por mim, para Melissa, criado em React-Js.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
+            <div className="card-body">
+              <p className="card-text">Site criado por mim, para Melissa, criado em React-Js.</p>
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="btn-group">
                   <a href="http://docesmel.s3-website-sa-east-1.amazonaws.com/" target="_blank">
                   <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
                   </a>
@@ -72,14 +72,14 @@ export default function Portfolio(){
           </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="card shadow-sm">
-            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src={conversorLeo}  preserveAspectRatio="xMidYMid slice"/>
+        <div className="col-md-4">
+          <div className="card shadow-sm">
+            <img className="bd-placeholder-img card-img-top" width="100%" height="225" src={conversorLeo}  preserveAspectRatio="xMidYMid slice"/>
 
-            <div class="card-body">
-              <p class="card-text">Aprendi o conceito, e criei do meu jeito um conversor de moedas, criado em React-Js.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
+            <div className="card-body">
+              <p className="card-text">Aprendi o conceito, e criei do meu jeito um conversor de moedas, criado em React-Js.</p>
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="btn-group">
                   <a href="http://conversorjunkes.s3-website-sa-east-1.amazonaws.com/" target="_blank">
                   <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
                   </a>

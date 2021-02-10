@@ -74,3 +74,15 @@
 #navText{
     color: white;
 }
+#sobremimText1{
+    background-color: #ffffff;
+}
+#sobreLeoText1{
+    
+    color: #18bc9c;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    text-underline-position: below;
+}

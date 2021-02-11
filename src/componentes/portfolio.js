@@ -108,7 +108,7 @@ export default function Portfolio() {
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
                   <a
-                    href="http://docesmel.s3-website-sa-east-1.amazonaws.com/"
+                    href="https://docesdemel.com.br/"
                     target="_blank"
                   >
                     <button
@@ -236,7 +236,7 @@ export default function Portfolio() {
             Currículo
           </h2>
           <p id="leoTextdescricao1" className="lead">
-          <i class="far fa-hand-point-right mr-2" style={{color:'green'}}></i><a href="https://docs.google.com/document/d/1poVD7AfymYo3GZnWVbX6oeM3xEvBslwm/edit " style={{fontSize:22}}>Meu Currículo</a><i class="far fa-hand-point-left ml-2"style={{color:'green'}} ></i>
+          <i class="far fa-hand-point-right mr-2" style={{color:'green'}}></i><a href="https://docs.google.com/document/d/1poVD7AfymYo3GZnWVbX6oeM3xEvBslwm/edit " target="blank" style={{fontSize:22}}>Meu Currículo</a><i class="far fa-hand-point-left ml-2"style={{color:'green'}} ></i>
           </p>
         </div>
       </section>

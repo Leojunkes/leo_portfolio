@@ -23,6 +23,7 @@ export default function Portfolio() {
             aria-controls="leoPortifolio"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            
           >
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -222,8 +223,8 @@ export default function Portfolio() {
             Sobre mim
           </h2>
           <p id="leoTextdescricao" className="lead">
-            Olá sou Leonardo junkes, estudo e desenvolvo fazem mais de 2 anos
-            (Angular, CSS, HTML...), mas com uma ênfase e comprometimento maior
+            Olá sou Leonardo junkes, estudo e desenvolvo fazem mais de 2 anos,
+             mas com uma ênfase e comprometimento maior
             em React-Js e React-native neste ano de 2020. Adoro esse mundo do
             desenvolvimento, e quando posso adoro jogar games, estou a cada dia
             mais motivado para aprender e criar!

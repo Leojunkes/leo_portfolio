@@ -86,4 +86,8 @@
     text-decoration: underline;
     text-underline-position: below;
 }
+.navbar-toggler{
+    background-color: white;
+    
+}
 
